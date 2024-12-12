@@ -1,0 +1,91 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d61882cf-072e-439e-9f56-b3600230bffa")
+	(paper "A3")
+	(lib_symbols)
+	(sheet
+		(at 241.3 135.89)
+		(size 25.4 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fcce79f0-fd73-4e8e-8e3f-b026c6dd0ea6")
+		(property "Sheetname" "CONTROL AMP ASSY"
+			(at 241.3 135.1784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "awg-018.kicad_sch"
+			(at 241.3 160.6046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "R_OUT" output
+			(at 266.7 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cc255c06-50df-4834-bbea-adba6bc68740")
+		)
+		(pin "R_IN" input
+			(at 241.3 152.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "cf3961b7-da1c-4a2e-ad99-dbca7c23a6e1")
+		)
+		(pin "L_IN" input
+			(at 241.3 143.51 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "565e10e7-0cfb-48f5-9d76-88895b90daff")
+		)
+		(pin "L_OUT" output
+			(at 266.7 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ffdeadd3-a814-46f1-aea0-877badaffd0b")
+		)
+		(instances
+			(project "pioneer-sa9100"
+				(path "/d61882cf-072e-439e-9f56-b3600230bffa"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
